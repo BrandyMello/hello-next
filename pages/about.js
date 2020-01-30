@@ -1,7 +1,16 @@
+import Layout from '../components/MyLayout';
+
 export default function About() {
   return (
-    <div>
+    <Layout>
       <p>This is the about page</p>
-    </div>
+    </Layout>
   );
 }
+
+//Layout as a Higher Order Component:
+//import withLayout from '../components/MyLayout';
+
+// const Page = () => <p>This is the about page</p>;
+
+// export default withLayout(Page);

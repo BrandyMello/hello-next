@@ -15,9 +15,11 @@ const Layout = props => (
 
 export default Layout;
 
-import Header from './Header';
+
 
 // Layout as a Higher Order Component:
+//import Header from './Header';
+
 //const layoutStyle = {
 //   margin: 20,
 //   padding: 20,
